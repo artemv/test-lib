@@ -12,7 +12,7 @@ describe('TestLib', () => {
     });
 
     it('should have always returned hello', () => {
-      expect(TestLib.greet).to.have.always.returned('hello');
+      expect(TestLib.greet).to.have.always.returned('bom dia');
     });
   });
 });
