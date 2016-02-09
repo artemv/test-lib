@@ -1,6 +1,6 @@
 const TestLib = {
   greet() {
-    return 'bom dia';
+    return 'bom dia, amigo';
   }
 };
 
