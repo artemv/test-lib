@@ -1,12 +1,21 @@
 language: node_js
 node_js:
   - "4"
-  - "stable"
 sudo: false
+before_install:
+  - npm i -g npm@^2.0.0
+before_script:
+  - npm prune
 script: "gulp coverage"
 after_success:
   - npm install -g codeclimate-test-reporter
   - codeclimate-test-reporter < coverage/lcov.info
+  - npm run semantic-release
 addons:
     code_climate:
         repo_token: adc71ce13e16bb6382ddb69190317d2616af5f10205b421d8d55488f58cdb196
+notifications:
+  email: false
+branches:
+  except:
+    - "/^v\\d+\\.\\d+\\.\\d+$/"
