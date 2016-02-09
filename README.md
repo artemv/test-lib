@@ -7,3 +7,4 @@ A test library to see semantic-version in action
 [![Test Coverage](https://codeclimate.com/github/artemv/test-lib/badges/coverage.svg)](https://codeclimate.com/github/artemv/test-lib)
 [![Dependency Status](https://david-dm.org/artemv/test-lib.svg)](https://david-dm.org/artemv/test-lib)
 [![devDependency Status](https://david-dm.org/artemv/test-lib/dev-status.svg)](https://david-dm.org/artemv/test-lib#info=devDependencies)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
