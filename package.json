@@ -9,7 +9,7 @@
     "watch": "gulp watch",
     "build": "gulp build",
     "coverage": "gulp coverage",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && cat package.json && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -56,7 +56,8 @@
     "vinyl-source-stream": "^1.1.0",
     "webpack": "^1.12.9",
     "webpack-stream": "^3.1.0",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^4.3.5",
+    "@semantic-release/commit-analyzer": "github:artemv/commit-analyzer#ceacb24e89ea696fb1b9e3452f0a8f386bf30619"
   },
   "babelBoilerplateOptions": {
     "entryFileName": "test-lib",
@@ -84,5 +85,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "release": {
+    "analyzeCommits": "./node_modules/@semantic-release/commit-analyzer/dist/index.js"
   }
 }
