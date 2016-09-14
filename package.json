@@ -31,6 +31,7 @@
     "babel-register": "^6.3.13",
     "chai": "^3.4.1",
     "del": "^2.2.0",
+    "freeform-semantic-commit-analyzer": "^1.0.0",
     "glob": "^6.0.3",
     "gulp": "^3.9.0",
     "gulp-babel": "^6.1.1",
@@ -49,19 +50,18 @@
     "isparta": "^4.0.0",
     "json-loader": "^0.5.3",
     "mocha": "^2.3.4",
+    "semantic-release": "^4.3.5",
     "sinon": "^1.17.2",
     "sinon-chai": "^2.8.0",
     "vinyl-source-stream": "^1.1.0",
     "webpack": "^1.12.9",
-    "webpack-stream": "^3.1.0",
-    "semantic-release": "^4.3.5",
-    "@semantic-release/commit-analyzer": "github:egis/commit-analyzer#4675f1a9d5426dedd5c863181f350e14fde19343"
+    "webpack-stream": "^3.1.0"
   },
   "publishConfig": {
     "tag": "1x"
   },
   "release": {
     "branch": "1x",
-    "analyzeCommits": "./node_modules/@semantic-release/commit-analyzer/dist/index.js"
+    "analyzeCommits": "./node_modules/freeform-semantic-commit-analyzer/dist/index.js"
   }
 }
