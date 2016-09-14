@@ -31,7 +31,7 @@
     "babel-register": "^6.3.13",
     "chai": "^3.4.1",
     "del": "^2.2.0",
-    "freeform-semantic-commit-analyzer": "^1.0.0",
+    "freeform-semantic-commit-analyzer": "^1.1.0",
     "glob": "^6.0.3",
     "gulp": "^3.9.0",
     "gulp-babel": "^6.1.1",
@@ -64,7 +64,8 @@
     "branch": "1x",
     "analyzeCommits": {
         "path": "./node_modules/freeform-semantic-commit-analyzer/dist/index.js",
-        "allowed": ["patch", "minor"]
+        "allowed": ["patch", "minor"],
+        "fallback": "minor"
     }
   }
 }
