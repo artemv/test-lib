@@ -57,7 +57,7 @@
     "semantic-release": "^4.3.5",
     "@semantic-release/commit-analyzer": "github:egis/commit-analyzer#4675f1a9d5426dedd5c863181f350e14fde19343"
   },
-  publishConfig: {
+  "publishConfig": {
     "tag": "1x"
   },
   "release": {
