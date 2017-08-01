@@ -1,5 +1,7 @@
 # test-lib
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/artemv/test-lib.svg)](https://greenkeeper.io/)
+
 A test library to see semantic-version in action
 
 [![Travis build status](http://img.shields.io/travis/artemv/test-lib.svg?style=flat)](https://travis-ci.org/artemv/test-lib)
