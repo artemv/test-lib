@@ -1,0 +1,17 @@
+machine:
+  node:
+    version: 7.0.0
+
+test:
+  post:
+    - .circleci/check_api.sh
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - .circleci/check_api.sh
+
+general:
+  artifacts:
+    - out.json

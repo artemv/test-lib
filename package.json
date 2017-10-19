@@ -1,6 +1,6 @@
 {
   "name": "test-lib",
-  "description": "A test library to see semantic-version in action",
+  "description": "A test library for experimenting with stuff",
   "main": "dist/test-lib.js",
   "scripts": {
     "test": "gulp",
